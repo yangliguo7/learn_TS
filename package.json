@@ -1,0 +1,23 @@
+{
+  "name": "learn_TS",
+  "version": "1.0.0",
+  "description": "这是一个关于[类型体操](https://github.com/type-challenges/type-challenges) 的做题过程，记录学习TS的点滴。",
+  "scripts": {
+    "prettier": "prettier -w src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YangLG-7/learn_TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YangLG-7/learn_TS/issues"
+  },
+  "homepage": "https://github.com/YangLG-7/learn_TS#readme",
+  "dependencies": {
+    "prettier": "^2.5.1",
+    "tree": "^0.1.3"
+  }
+}
