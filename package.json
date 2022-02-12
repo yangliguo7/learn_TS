@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/YangLG-7/learn_TS#readme",
   "dependencies": {
+    "@type-challenges/utils": "^0.1.1",
     "prettier": "^2.5.1",
     "tree": "^0.1.3"
   }

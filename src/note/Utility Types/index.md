@@ -211,3 +211,26 @@ type T = ConstructorParameters<typeof C>; // []
 
 type T = ConstructorParameters<() => {}>; // ERROR : Type '() => {}' does not satisfy the constraint 'new (...args: any) => any'.
 ```
+
+#### ReturnType< Type >
+
+构造一个由函数类型的返回类型组成的类型
+
+```ts
+declare function f1(): { a: number; b: string };
+
+type T = ReturnType<typeof f1>; // { a: number; b: string }
+
+type f2 = () => void;
+type T = ReturnType<f2>; // void
+
+function f3<T>(param: T): T {
+  return param;
+}
+type T = ReturnType<typeof f3>; // unknow
+
+class C {
+  constructor() {}
+}
+type T = ReturnType<typeof C>; //  Type 'typeof C' does not satisfy the constraint '(...args: any) => any'.
+```
