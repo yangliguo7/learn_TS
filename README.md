@@ -33,6 +33,15 @@ learn_TS
     npx tsc xxx.ts 
     npx ts-node xxx.ts
 ```
+### 需要注意的题目
+**media**
+
+[FlattenDepth](https://github.com/type-challenges/type-challenges/blob/master/questions/3243-medium-flattendepth/README.md)
+[Chainable Options](https://github.com/type-challenges/type-challenges/blob/master/questions/12-medium-chainable-options/README.md)
+[Promise.all](https://github.com/type-challenges/type-challenges/blob/master/questions/20-medium-promise-all/README.md)
+[KebabCase](https://github.com/type-challenges/type-challenges/blob/master/questions/612-medium-kebabcase/README.md)
+[AllCombinations](https://github.com/type-challenges/type-challenges/blob/master/questions/4260-medium-nomiwase/README.md)
+
 
 
 
