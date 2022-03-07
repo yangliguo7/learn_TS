@@ -39,13 +39,18 @@ type Fill<
   N,
   Start extends number = 0,
   End extends number = T["length"],
-  R extends unknown[] = [] // 记录已经遍历了几次
+  R extends unknown[] = [], // 记录已经遍历了几次
+  B extends boolean = false // 标识 是否已经到start 和 end 区间范围
 > = Start extends End
   ? T
   : T extends [infer F, ...infer L]
   ? R["length"] extends Start
-    ? []
-    : [F, ...Fill<L, N, Start, End, [...R, 1]>]
+    ? [N, ...Fill<L, N, Start, End, [...R, 1], true>]
+    : true extends B
+    ? R["length"] extends End
+      ? [F, ...Fill<L, N, Start, End, [...R, 1], false>]
+      : [N, ...Fill<L, N, Start, End, [...R, 1], true>]
+    : [F, ...Fill<L, N, Start, End, [...R, 1], false>]
   : [];
 
 /* _____________ Test Cases _____________ */
