@@ -33,16 +33,6 @@ learn_TS
     npx tsc xxx.ts 
     npx ts-node xxx.ts
 ```
-### 需要注意的题目
-**media**
-
-[FlattenDepth](https://github.com/type-challenges/type-challenges/blob/master/questions/3243-medium-flattendepth/README.md)
-[Chainable Options](https://github.com/type-challenges/type-challenges/blob/master/questions/12-medium-chainable-options/README.md)
-[Promise.all](https://github.com/type-challenges/type-challenges/blob/master/questions/20-medium-promise-all/README.md)
-[KebabCase](https://github.com/type-challenges/type-challenges/blob/master/questions/612-medium-kebabcase/README.md)
-[AllCombinations](https://github.com/type-challenges/type-challenges/blob/master/questions/4260-medium-nomiwase/README.md)
-[MapTypes](https://github.com/type-challenges/type-challenges/blob/master/questions/5821-medium-maptypes/README.md)
-
 
 ## 题库速览
 
@@ -209,6 +199,32 @@ learn_TS
 ### hard
 
 [1、Simple-Vue](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/1%E3%80%81Simple-Vue.ts)
+
+[2、Currying](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/2%E3%80%81Currying.ts)
+
+[3、Union-To-Intersection](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/3%E3%80%81Union-To-Intersection.ts)
+
+[4、Get Required](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/4%E3%80%81Get%20Required.ts)
+
+[5、Get-Optional](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/5%E3%80%81Get-Optional.ts)
+
+[6、Required Keys](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/6%E3%80%81Required%20Keys.ts)
+
+[7、Optional Keys](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/7%E3%80%81Optional%20Keys.ts)
+
+[8、Capitalize Words](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/8%E3%80%81Capitalize%20Words.ts)
+
+[9、CamelCase](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/9%E3%80%81CamelCase.ts)
+
+[10、C-printf Parser](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/10%E3%80%81C-printf%20Parser.ts)
+
+[11、Vue Basic Props](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/11%E3%80%81Vue%20Basic%20Props.ts)
+
+[12、isAny](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/12%E3%80%81isAny.ts)
+
+[13、Typed Get](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/13%E3%80%81Typed%20Get.ts)
+
+[14、String to Number](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/14%E3%80%81String%20to%20Number.ts)
 
 
 
