@@ -226,6 +226,43 @@ learn_TS
 
 [14、String to Number](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/14%E3%80%81String%20to%20Number.ts)
 
+[15、Tuple Filter](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/15%E3%80%81Tuple%20Filter.ts)
+
+[16、Tuple to Enum Object](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/16%E3%80%81Tuple%20to%20Enum%20Object.ts)
+
+[17、Printf](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/17%E3%80%81Printf.ts)
+
+[18、Deep object to unique](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/18%E3%80%81Deep%20object%20to%20unique.ts)
+
+[19、String Join](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/19%E3%80%81String%20Join.ts)
+
+[20、DeepPick](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/20%E3%80%81DeepPick.ts)
+
+[21、Pinia](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/21%E3%80%81Pinia.ts)
+
+[22、Camelize](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/22%E3%80%81Camelize.ts)
+
+[23、Drop String](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/23%E3%80%81Drop%20String.ts)
+
+[24、Split](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/24%E3%80%81Split.ts)
+
+[25、ClassPublicKeys](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/25%E3%80%81ClassPublicKeys.ts)
+
+[26、IsRequiredKey](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/26%E3%80%81IsRequiredKey.ts)
+
+[27、ObjectFromEntries](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/27%E3%80%81ObjectFromEntries.ts)
+
+[28、IsPalindrome](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/28%E3%80%81IsPalindrome.ts)
+
+[29、Mutable Keys](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/29%E3%80%81Mutable%20Keys.ts)
+
+[30、Intersection](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/30%E3%80%81Intersection.ts)
+
+[31、Binary to Decimal](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/31%E3%80%81Binary%20to%20Decimal.ts)
+
+[32、Object Key Paths](https://github.com/YangLG-7/learn_TS/blob/master/./src/3%E3%80%81hard/32%E3%80%81Object%20Key%20Paths.ts)
+
+
 
 
 
