@@ -27,6 +27,17 @@ type GetRealIndex<
     : GetRealIndex<A, T, [...R, 1]>
   : A;
 
+type GenerateArr<
+  T extends number,
+  A extends unknown[] = []
+> = A["length"] extends T ? A : GenerateArr<T, [...A, 1]>;
+
+// Start的长度 大于 End 长度
+type Than<
+  Start extends number,
+  End extends number
+> = GenerateArr<Start> extends [...GenerateArr<End>, ...infer R] ? true : false;
+
 type SliceHelper<
   Arr extends unknown[],
   Start extends number = 0,
@@ -34,12 +45,16 @@ type SliceHelper<
   RESULT extends unknown[] = [],
   FLAG extends boolean = false, // 标识是否进入目标区域,
   T extends unknown[] = []
-> = Arr extends [infer F, ...infer R]
-  ? RESULT["length"] extends Start
-    ? any
-    : FLAG extends true
-    ? any
-    : any
+> = Than<Start, End> extends true
+  ? []
+  : Arr extends [infer F, ...infer R]
+  ? FLAG extends true
+    ? End extends T["length"]
+      ? RESULT
+      : SliceHelper<R, Start, End, [...RESULT, F], true, [...T, F]>
+    : Start extends T["length"]
+    ? SliceHelper<R, Start, End, [F], true, [...T, F]>
+    : SliceHelper<R, Start, End, RESULT, false, [...T, F]>
   : RESULT;
 
 type Slice<
