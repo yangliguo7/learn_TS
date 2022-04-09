@@ -50,11 +50,11 @@
 // type a  = GenerateArr<"39532">
 
 // ------------------------------------------------------------------------------------
-type ReverseString<S extends string> = S extends `${infer F}${infer R}`
+export type ReverseString<S extends string> = S extends `${infer F}${infer R}`
   ? `${ReverseString<R>}${F}`
   : "";
 
-type GetString<A extends string | number | bigint> = A extends string
+export type GetString<A extends string | number | bigint> = A extends string
   ? A
   : A extends number
   ? `${A & number}`
@@ -141,7 +141,7 @@ type SumHelper<
   ? "1"
   : "";
 
-type Sum<
+export type Sum<
   A extends string | number | bigint,
   B extends string | number | bigint
 > = ReverseString<
